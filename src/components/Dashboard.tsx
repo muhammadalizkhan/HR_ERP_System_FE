@@ -54,7 +54,7 @@ const Dashboard = () => {
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                   <div>
-                    <p className="font-medium">Alex Thompson</p>
+                    <p className="font-medium">Muhammad Ali</p>
                     <p className="text-sm text-gray-600">Performance Review</p>
                   </div>
                 </div>
