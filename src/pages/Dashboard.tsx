@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Users, Clock, Award, AlertCircle, TrendingUp, DollarSign } from 'lucide-react';
 import QuickActions from '../components/Dashboard/QuickActions';
 import EmployeeChart from '../components/Charts/EmployeeChart';

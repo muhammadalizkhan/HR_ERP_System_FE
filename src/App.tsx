@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
 import Employees from './pages/Employees';
@@ -7,6 +7,7 @@ import Leave from './pages/Leave';
 import Performance from './pages/Performance';
 import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
+import Recruitment from './pages/Recruitment';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard');
@@ -28,6 +29,8 @@ function App() {
         return <Analytics />;
       case 'settings':
         return <Settings />;
+        case 'recruitment':
+        return <Recruitment />;
       default:
         return <Dashboard />;
     }

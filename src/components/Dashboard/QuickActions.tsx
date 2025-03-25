@@ -1,4 +1,3 @@
-import React from 'react';
 import { UserPlus, FileUp, Calendar, MessageSquare } from 'lucide-react';
 
 const QuickActions = () => {
