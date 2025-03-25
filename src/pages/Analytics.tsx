@@ -1,4 +1,3 @@
-import React from 'react';
 import { BarChart3, TrendingUp, Users, DollarSign } from 'lucide-react';
 
 const Analytics = () => {
